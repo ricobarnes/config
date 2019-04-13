@@ -160,5 +160,6 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias brewery='brew update && brew upgrade && brew tap caskroom/cask && brew cleanup'
+alias listbrew='brew list && echo "###############     Cask    ###############" && brew cask list'
 
 alias iossim='open -a Simulator'
